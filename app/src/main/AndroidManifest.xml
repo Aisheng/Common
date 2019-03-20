@@ -21,7 +21,7 @@
 
         <activity android:name="hanami.com.testdemo.NextActivity"/>
 
-        <receiver android:name=".receiver.AntiReceiver">
+        <receiver android:name="hanami.com.testdemo.receiver.AntiReceiver">
             <intent-filter>
                 <action android:name="com.hanami.alarm"/>
             </intent-filter>
